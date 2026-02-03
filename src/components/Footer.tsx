@@ -2,11 +2,11 @@ import { motion } from "framer-motion";
 import { Github, Linkedin, Twitter, Mail, Instagram } from "lucide-react";
 
 const socialLinks = [
-  { name: "GitHub", icon: Github, url: "https://github.com" },
-  { name: "LinkedIn", icon: Linkedin, url: "https://linkedin.com" },
-  { name: "Twitter", icon: Twitter, url: "https://twitter.com" },
-  { name: "Instagram", icon: Instagram, url: "https://instagram.com" },
-  { name: "Email", icon: Mail, url: "mailto:hello@example.com" },
+  { name: "GitHub", icon: Github, url: "https://github.com/AJlearner46" },
+  { name: "LinkedIn", icon: Linkedin, url: "https://linkedin.com/in/ayushrupapara22/" },
+  { name: "Twitter", icon: Twitter, url: "https://x.com/Ayush_2202" },
+  // { name: "Instagram", icon: Instagram, url: "https://instagram.com" },
+  { name: "Email", icon: Mail, url: "mailto:ayushrupapara@example.com" },
 ];
 
 const Footer = () => {
@@ -47,7 +47,7 @@ const Footer = () => {
 
           <div className="pt-8 border-t border-border">
             <p className="text-sm text-muted-foreground font-body">
-              © {new Date().getFullYear()} Your Name. All rights reserved.
+              © {new Date().getFullYear()} Ayush Rupapara. All rights reserved.
             </p>
             <p className="text-xs text-muted-foreground/60 font-body mt-2">
               Designed & Built with ❤️

@@ -13,10 +13,10 @@ const Hero = () => {
             Hello, I'm
           </p>
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-medium mb-6 text-foreground">
-            Your Name
+            Ayush Rupapara
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground font-body font-light max-w-2xl mx-auto mb-8">
-            Creative Developer & Designer crafting beautiful digital experiences
+            Passionate Learner & Developer, building things.
           </p>
         </motion.div>
         

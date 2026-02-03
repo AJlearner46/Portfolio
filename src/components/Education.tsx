@@ -3,22 +3,16 @@ import { GraduationCap } from "lucide-react";
 
 const educationData = [
   {
-    degree: "Master of Computer Science",
-    institution: "University of Technology",
-    year: "2021 - 2023",
-    description: "Specialized in Software Engineering and AI/ML. Graduated with honors.",
-  },
-  {
-    degree: "Bachelor of Computer Science",
-    institution: "State University",
-    year: "2017 - 2021",
-    description: "Foundation in programming, algorithms, and system design.",
+    degree: "B. Tech in Mathematics & Data Science",
+    institution: "Maulana Azad National Institute of Technology (NIT Bhopal)",
+    year: "2021 - 2025",
+    description: "Specialized in AI, Machine Learning, and Data Analysis.",
   },
   {
     degree: "High School Diploma",
-    institution: "Central High School",
-    year: "2015 - 2017",
-    description: "Focus on Mathematics and Computer Science.",
+    institution: "Gujarat Board",
+    year: "2018 - 2020",
+    description: "Focused on Science stream with Mathematics, Physics, and Chemistry.",
   },
 ];
 

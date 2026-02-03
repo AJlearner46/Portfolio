@@ -5,6 +5,7 @@ import { Menu, X } from "lucide-react";
 const navLinks = [
   { name: "About", href: "#about" },
   { name: "Education", href: "#education" },
+  { name: "Work Experience", href: "#experience" },
   { name: "Projects", href: "#projects" },
   { name: "Hobbies", href: "#hobbies" },
   { name: "Achievements", href: "#achievements" },
@@ -37,7 +38,7 @@ const Navigation = () => {
       >
         <div className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
           <a href="#" className="text-xl font-display font-medium text-foreground">
-            YN
+            Ayush Rupapara
           </a>
 
           {/* Desktop Navigation */}

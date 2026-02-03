@@ -3,28 +3,32 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projectsData = [
   {
-    title: "E-Commerce Platform",
-    description: "A full-stack e-commerce solution with payment integration and admin dashboard.",
-    tags: ["React", "Node.js", "MongoDB"],
-    image: "🛒",
+    title: "InjurySense - Injury Assessment System",
+    description: "Multi-agent AI system for external injury assessment using CrewAI. Integrates vision-based medical feature extraction, PubMed API literature retrieval, and structured analysis with confidence thresholds to reduce hallucinated diagnoses.",
+    tags: ["CrewAI", "Agentic AI", "PubMed API", "Streamlit", "Vision AI"],
+    image: "🏥",
+    github: "https://github.com/AJlearner46/InjurySense-AI",
   },
   {
-    title: "Task Management App",
-    description: "Collaborative project management tool with real-time updates and team features.",
-    tags: ["TypeScript", "Next.js", "PostgreSQL"],
-    image: "📋",
-  },
-  {
-    title: "AI Image Generator",
-    description: "Web app that generates unique images using machine learning models.",
-    tags: ["Python", "TensorFlow", "React"],
+    title: "Image Caption Generator",
+    description: "Vision-language model combining ViT visual encoder with GPT-2 text decoder. Interactive Gradio interface with beam search inference deployed on Hugging Face Spaces. Achieved 0.56 BLEU-1 score on Flickr8k dataset.",
+    tags: ["PyTorch", "ViT", "GPT-2", "Huggingface", "Gradio"],
     image: "🎨",
+    github: "https://huggingface.co/spaces/ayushrupapara/vit-gpt2-image-captioner",
   },
   {
-    title: "Portfolio Website",
-    description: "Modern, responsive portfolio showcasing projects and skills.",
-    tags: ["React", "Tailwind CSS", "Framer Motion"],
-    image: "💼",
+    title: "Agentic AI Trip Planner",
+    description: "LangGraph-powered multi-agent system for intelligent travel planning. Generates personalized itineraries, expense breakdowns, and destination insights via prompt-driven LLM workflows with real-time API integration.",
+    tags: ["LangGraph", "FastAPI", "LLM", "Streamlit", "Multi-Agent"],
+    image: "✈️",
+    github: "https://github.com/AJlearner46/AI_Trip_Planner",
+  },
+  {
+    title: "Reliable RAG-Based Q&A System",
+    description: "Advanced question-answering agent using LangGraph, LLaMA 3, and Chroma vector database. Implements dynamic routing, hallucination detection, fallback management, and Tavily web search integration for reliable contextual answers.",
+    tags: ["RAG", "Langchain", "Vector DB", "LLM", "LangGraph"],
+    image: "🤖",
+    github: "https://github.com/AJlearner46/Advanced-Graph-Based-RAG-Agent",
   },
 ];
 
@@ -77,7 +81,7 @@ const Projects = () => {
                   ))}
                 </div>
 
-                <div className="flex gap-4">
+                {/* <div className="flex gap-4">
                   <button className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors font-body">
                     <Github className="w-4 h-4" />
                     Code
@@ -86,6 +90,27 @@ const Projects = () => {
                     <ExternalLink className="w-4 h-4" />
                     Demo
                   </button>
+                </div>
+              </div> */}
+              <div className="flex gap-4">
+                  <a 
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors font-body cursor-pointer"
+                  >
+                    <Github className="w-4 h-4" />
+                    Code
+                  </a>
+                  <a 
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors font-body cursor-pointer"
+                  >
+                    <ExternalLink className="w-4 h-4" />
+                    Demo
+                  </a>
                 </div>
               </div>
             </motion.div>

@@ -3,33 +3,43 @@ import { Award, Trophy, Star, Medal } from "lucide-react";
 
 const achievementsData = [
   {
-    title: "Best Innovation Award",
-    organization: "Tech Conference 2023",
-    year: "2023",
+    title: "Amazon ML Challenge",
+    year: "2025",
     icon: Trophy,
-    description: "Recognized for developing an innovative AI-powered accessibility tool.",
+    description: "Secured a rank 60 out of 75000+ participants, where we developed an entity extractor.",
   },
   {
-    title: "Open Source Contributor",
-    organization: "Major OSS Project",
-    year: "2022",
+    title: "GATE Qualified in DA",
+    year: "2025",
+    icon: Medal,
+    description: "Qualified GATE exam in Data science and Artificial Intelligence.",
+  },
+  {
+    title: "Kaggle Expert",
+    year: "2024",
+    organization: "Kaggle",
     icon: Star,
-    description: "Contributed significant features to a popular open-source framework.",
+    description: "Achieved Kaggle Expert status in data science Notebooks and competitions.",
   },
   {
-    title: "Hackathon Winner",
-    organization: "Global Hack 2022",
-    year: "2022",
-    icon: Award,
-    description: "First place for building a sustainable energy monitoring platform.",
+    title: "Amazon ML Summer School",
+    year: "2024",
+    icon: Star,
+    description: "Completed intensive training on machine learning and AI applications.",
   },
   {
-    title: "Dean's List",
-    organization: "University of Technology",
+    title: "JEE Main",
     year: "2021",
     icon: Medal,
-    description: "Maintained top academic performance throughout the program.",
+    description: "secured AIR 13907 in JEE Main exam out of 12 Lakh+ students.",
   },
+  {
+    title: "HSC Board Exam Rank",
+    year: "2018",
+    icon: Medal,
+    description: "Secured 10th rank out of 10Lakh+ students in Gujarat State HSC Board Exam.",
+  },
+  
 ];
 
 const Achievements = () => {
