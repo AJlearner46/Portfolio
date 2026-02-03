@@ -1,6 +1,9 @@
 ## Project info
 
-**URL**: https://
+**Checkout URL**:
+- [Netlify Link](https://ayush-rupapara.netlify.app/)
+- [Vercel Link](https://portfolio-five-sable-83.vercel.app/)
+
 
 
 For edit:
