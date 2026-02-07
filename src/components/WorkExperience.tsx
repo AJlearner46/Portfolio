@@ -5,7 +5,7 @@ const workExperienceData = [
   {
     title: "AI Engineer",
     company: "Tata Consultancy Services (TCS)",
-    duration: "Jan 2026 - Present",
+    duration: "Aug 2025 - Present",
     type: "Full-time",
     description: "Developing intelligent workflows and agentic systems for ECM (Enterprise Content Management) projects.",
     skills: ["Python", "Agentic AI", "LLMs", "Contract Intelligence", "AI Workflows"],
@@ -15,20 +15,20 @@ const workExperienceData = [
       "Implementing Python-based AI solutions for enterprise applications"
     ]
   },
-  {
-    title: "ILP Training - Full Stack Development",
-    company: "Tata Consultancy Services (TCS)",
-    duration: "Aug 2025 - Dec 2025",
-    type: "Training Program",
-    description: "Completed comprehensive TCS ILP training with hands-on exposure to full-stack technologies.",
-    skills: ["Java", "SQL", "SpringBoot", "React", "Node.js"],
-    highlights: [
-      "Hands-on exposure to Java, SQL, and database design",
-      "Built full-stack applications using SpringBoot and React",
-      "Collaborated on team-based technical projects",
-      "Developed professional and business communication skills"
-    ]
-  },
+  // {
+  //   title: "ILP Training - Full Stack Development",
+  //   company: "Tata Consultancy Services (TCS)",
+  //   duration: "Aug 2025 - Dec 2025",
+  //   type: "Training Program",
+  //   description: "Completed comprehensive TCS ILP training with hands-on exposure to full-stack technologies.",
+  //   skills: ["Java", "SQL", "SpringBoot", "React", "Node.js"],
+  //   highlights: [
+  //     "Hands-on exposure to Java, SQL, and database design",
+  //     "Built full-stack applications using SpringBoot and React",
+  //     "Collaborated on team-based technical projects",
+  //     "Developed professional and business communication skills"
+  //   ]
+  // },
   {
     title: "Freelance - RAG Chatbot Developer",
     company: "Self-Employed",
