@@ -7,7 +7,7 @@ const workExperienceData = [
     company: "Tata Consultancy Services (TCS)",
     duration: "Aug 2025 - Present",
     type: "Full-time",
-    description: "Developing intelligent workflows and agentic systems for ECM (Enterprise Content Management) projects.",
+    description: "Developing intelligent workflows and agentic systems for ECM (Enterprise Content Management).",
     skills: ["Python", "Agentic AI", "LLMs", "Contract Intelligence", "AI Workflows"],
     highlights: [
       "Building agentic AI systems for contract intelligence",
@@ -37,9 +37,7 @@ const workExperienceData = [
     description: "Developed a RAG-based chatbot application for healthcare platform APIs.",
     skills: ["RAG", "LangChain", "Vector Database", "Healthcare APIs", "Python"],
     highlights: [
-      "Architected RAG pipeline for healthcare domain",
-      "Integrated with healthcare platform APIs for real-time data",
-      "Implemented context-aware retrieval and response generation"
+      "Built a healthcare retrieval-augmented assistant integrating live APIs and structured retrieval."
     ]
   }
 ];

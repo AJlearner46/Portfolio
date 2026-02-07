@@ -23,7 +23,7 @@ const Footer = () => {
             Let's Connect
           </h2>
           <p className="text-muted-foreground font-body mb-8 max-w-md mx-auto">
-            Feel free to reach out for collaborations, opportunities, or just a friendly chat!
+            I’m always open to discussions about collaborations, opportunities, or just a friendly chat!
           </p>
 
           <div className="flex justify-center gap-4 mb-12">

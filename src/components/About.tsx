@@ -41,18 +41,18 @@ const About = () => {
             className="space-y-6"
           >
             <p className="text-lg text-muted-foreground font-body leading-relaxed">
-              I'm an AI engineer obsessed with building intelligent systems. With a deep foundation in mathematics and data science, I turn problems into 
-              elegant AI solutions.
+              I’m an AI engineer by curiosity.
             </p>
             <p className="text-lg text-muted-foreground font-body leading-relaxed">
-              My sweet spot? Taking cutting-edge AI concepts and translating them into production-ready 
-              applications. Whether it's fine-tuning language models, designing intelligent agents, or 
-              architecting data pipelines that hum, I'm driven by the challenge of making AI accessible 
-              and impactful.
+              My sweet spot? Taking cutting-edge AI concepts and shaping them into usable applications. 
+              I enjoy the process from experimentation to reliability: fine-tuning models, designing 
+              agent workflows, data pipelines, and making systems stable enough to live outside demos.
             </p>
             <p className="text-lg text-muted-foreground font-body leading-relaxed">
-              When I'm not excercising with transformers or optimizing model inference, you'll find me 
-              diving into the latest research papers, experimenting with new frameworks, or vibecoding gigs.
+              When I'm not optimizing inference or debugging behaviors, I’m reading research, 
+              trying new frameworks, or simply vibecoding ideas into existence.
+            <br/>
+            I learn by reading, exploring papers. I understand by building them badly first.
             </p>
             {/* <div className="flex flex-wrap gap-3 pt-4">
               {["Generative AI", "LLMs", "Machine Learning", "Python", "Vibe Coding","Data Science", "AI Agents", "Deep Learning", "Mathematics"].map((skill) => (

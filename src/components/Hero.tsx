@@ -16,7 +16,7 @@ const Hero = () => {
             Ayush Rupapara
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground font-body font-light max-w-2xl mx-auto mb-8">
-            Passionate Learner & Developer, building things.
+            I build systems that reason, while learning why they fail.
           </p>
         </motion.div>
         

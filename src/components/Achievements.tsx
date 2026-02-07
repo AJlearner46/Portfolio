@@ -3,13 +3,13 @@ import { Award, Trophy, Star, Medal } from "lucide-react";
 
 const achievementsData = [
   {
-    title: "Amazon ML Challenge",
+    title: "Amazon ML Challenge - Top 0.1%",
     year: "2025",
     icon: Trophy,
     description: "Secured a rank 60 out of 75000+ participants, where we developed an entity extractor.",
   },
   {
-    title: "GATE Qualified in DA",
+    title: "GATE Qualified- Data Science & AI",
     year: "2025",
     icon: Medal,
     description: "Qualified GATE exam in Data science and Artificial Intelligence.",
@@ -28,13 +28,13 @@ const achievementsData = [
     description: "Completed intensive training on machine learning and AI applications.",
   },
   {
-    title: "JEE Main",
+    title: "JEE Main AIR 13907",
     year: "2021",
     icon: Medal,
     description: "secured AIR 13907 in JEE Main exam out of 12 Lakh+ students.",
   },
   {
-    title: "HSC Board Exam Rank",
+    title: "Gujarat Board Rank 10",
     year: "2018",
     icon: Medal,
     description: "Secured 10th rank out of 10Lakh+ students in Gujarat State HSC Board Exam.",
